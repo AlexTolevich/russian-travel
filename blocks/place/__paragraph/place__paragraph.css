@@ -5,3 +5,8 @@
   font-weight: normal;
   line-height: 163%;
 }
+
+.place__paragraph:last-of-type {
+  padding-bottom: 0;
+
+}
