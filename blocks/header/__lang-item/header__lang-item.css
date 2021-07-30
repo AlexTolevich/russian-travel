@@ -1,0 +1,8 @@
+.header__lang-item {
+  list-style-type: none;
+  margin-left: 18px;
+}
+
+.header__lang-item:first-of-type {
+  margin-left: 0;
+}
