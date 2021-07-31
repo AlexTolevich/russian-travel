@@ -9,5 +9,13 @@
 
 .header__lang-link:hover {
   opacity: 0.8;
+  cursor: url("../../../images/Pointer.png"), auto;
+}
+
+@media screen and (max-width: 767px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 20px;
+  }
 }
 

@@ -4,6 +4,7 @@
   grid-template-columns: 460px 1fr;
   gap: 48px 40px;
   padding-bottom: 80px;
+  justify-content: center;
 }
 
 .place:last-of-type {
@@ -22,5 +23,13 @@
     grid-template-columns: 340px 1fr;
     gap: 48px 28px;
     padding-bottom: 73px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place {
+    grid-template-columns: min(320px);
+    gap: 32px;
+    padding-bottom: 50px;
   }
 }

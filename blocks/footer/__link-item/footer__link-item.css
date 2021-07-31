@@ -2,3 +2,10 @@
   margin-right: 18px;
   list-style-type: none;
 }
+
+@media screen and (max-width: 767px) {
+  .footer__link-item {
+    margin: 0;
+    margin-bottom: 32px;
+  }
+}
