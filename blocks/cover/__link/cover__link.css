@@ -15,7 +15,7 @@
 }
 
 .cover__link:hover {
-cursor: url("../../../images/Pointer.png"), auto;
+  cursor: url("../../../images/Pointer.svg"), auto;
 }
 
 .cover__link:hover::before {

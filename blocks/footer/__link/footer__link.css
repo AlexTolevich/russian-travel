@@ -10,7 +10,7 @@
 
 .footer__link:hover {
   opacity: 0.8;
-  cursor: url("../../../images/Pointer.png"), auto;
+  cursor: url("../../../images/Pointer.svg"), auto;
 }
 
 @media screen and (max-width: 767px) {
